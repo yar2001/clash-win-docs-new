@@ -1,6 +1,6 @@
 # TUN 模式
 
-对于不遵循系统代理的软件，TUN 模式可以接管其流量并交由 CFW 处理，在 Windows 中，TUN 模式性能比 TAP 模式好
+对于不遵循系统代理的软件，TUN 模式可以接管其流量并交由 CFW 处理。TUN 模式也适用于WSL2、Docker等复杂网络环境下不方便配置proxy的场景。在 Windows 中，TUN 模式性能比 TAP 模式好
 
 ## Windows
 
